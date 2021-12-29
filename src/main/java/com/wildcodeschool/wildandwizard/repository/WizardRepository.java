@@ -132,6 +132,7 @@ public class WizardRepository implements CrudDao<Wizard> {
 
     @Override
     public Wizard update(Wizard wizard) {
+    	
 		Connection connection = null;
 		PreparedStatement statement = null;
         try {
@@ -165,6 +166,7 @@ public class WizardRepository implements CrudDao<Wizard> {
 
     @Override
     public void deleteById(Long id) {
+    	
 		Connection connection = null;
 		PreparedStatement statement = null;
         try {
